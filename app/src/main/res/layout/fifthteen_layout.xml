@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FifthteenActivity"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_above="@+id/layBottom"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Independent Country"
+                android:textSize="40sp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:background="@drawable/custom_black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="On 4 August, thousands of protesters convened at Dhaka's Shahbag intersection in the morning, obstructing it as a form of civil disobedience to demand the resignation of the government. This was followed by hundreds of casualties. The following day, the protesters called for the Long March to Dhaka in defiance of a nationwide curfew to press Sheikh Hasina to resign. The protests forced Sheikh Hasina to resign. She, along with her sister Sheikh Rehana, then fled the country to India via military on 5 August 2024."
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:layout_marginTop="30sp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#E0E0E0"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="30"
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/home"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/criminals"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/criminal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Criminals"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/protestors"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/community"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Protestors"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

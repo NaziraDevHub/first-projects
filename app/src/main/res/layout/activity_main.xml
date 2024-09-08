@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+
+
+    >
+
+    <LinearLayout
+
+        android:id="@+id/layButton2"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:orientation="horizontal"
+        android:background="#E0E0E0"
+
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/hamburger"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="25dp"
+
+            />
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="40sp"
+            android:text="Quota movement"
+            android:textColor="#000000"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="8dp"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40sp"
+            android:text="July2024"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:background="@drawable/custom_july"
+
+            />
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_above="@+id/layBottom"
+        android:layout_below="@+id/layButton2"
+
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Martyrs 650+"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:background="@drawable/custom_orange"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#e65100"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Injured 33000+"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:background="@drawable/custom_blue"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#0d47a1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Arrest,Disappear 11000+"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:background="@drawable/custom_red"
+                    android:textColor="#b71c1c"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="20dp"
+                android:weightSum="4"
+                >
+                <LinearLayout
+                    android:id="@+id/information"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/info"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Info"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/government"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/govern"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Government"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/system"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="System"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/country"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/fla"
+                        android:layout_marginTop="13dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Independent country"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:text="Hero 2024"
+                android:textSize="25sp"
+                android:layout_marginLeft="60sp"
+                android:layout_marginRight="60sp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:background="@drawable/custom_style"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+
+                >
+                <LinearLayout
+                    android:id="@+id/sarjisalam"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/custom_black"
+
+
+                    >
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/sarjis"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Coordinator"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:background="#e0e0e0"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sarjis Alam"
+                        android:textColor="#000000"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:background="#e0e0e0"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/asifmahmud"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/custom_black"
+                    >
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/asifmahmood"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Coordinator"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:background="#e0e0e0"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Asif Mahmud"
+                        android:textColor="#000000"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:background="#e0e0e0"
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/custom_black"
+                    >
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/nahidup"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Coordinator"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:background="#e0e0e0"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nahid Islam"
+                        android:textColor="#000000"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:background="#e0e0e0"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/marqueeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:padding="10dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="By clicking on the buttons below, you will get the details of how many people have died in which category."
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                />
+
+
+
+
+            <Button
+                android:id="@+id/dhaka"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Dhaka"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="75dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bottom_shade"
+                />
+
+
+            <Button
+                android:id="@+id/chattogram"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Chattogram"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="75dp"
+                android:background="@drawable/bottom_shade"
+
+                />
+
+    <Button
+        android:id="@+id/khulna"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Khulna"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:background="@drawable/bottom_shade"
+
+        />
+
+
+            <Button
+                android:id="@+id/sylhet"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="75dp"
+                android:background="@drawable/bottom_shade"
+                android:gravity="center"
+                android:text="Sylhet"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+        android:id="@+id/barishal"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Barishal"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:background="@drawable/bottom_shade"
+
+        />
+
+    <Button
+        android:id="@+id/rangpur"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Rangpur"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:background="@drawable/bottom_shade"
+
+        />
+    <Button
+        android:id="@+id/mymensingh"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Mymensingh"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:background="@drawable/bottom_shade"
+
+        />
+            <Button
+            android:id="@+id/rajshahi"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Rajshahi"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:background="@drawable/bottom_shade"
+
+            />
+
+            <Button
+                android:id="@+id/cumilla"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Cumilla"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="75dp"
+                android:background="@drawable/bottom_shade"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#E0E0E0"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="30"
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/home"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/criminals"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/criminal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Criminals"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/protestors"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/community"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Protestors"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

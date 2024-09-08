@@ -1,0 +1,2890 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical"
+
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_above="@+id/layBottom"
+        android:layout_alignParentTop="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/custom_search"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/search"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Search"
+                    android:textSize="25sp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#C1757575"
+                    />
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:text="Martyrs(dhaka)"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/custom_style"
+                />
+
+
+        <LinearLayout
+            android:id="@+id/sakibhasan"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:background="#DCDCDC"
+        >
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="160dp"
+                android:src="@drawable/sakib"
+                android:layout_marginLeft="10dp"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name:Sakib Hasan"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Profession:Student"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date:17/7/2024"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/shakil"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Shakil Parvej"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:18/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/jillur"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Zillur Sheikh"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:18/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/dipto"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Dipto Dey"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:18/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/kalid"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Khalid Hasan Saifullah"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:18/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/ahasadun"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:MD.Ahasadun"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:18/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/blank"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Jubayer Ahmed"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Businessman"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:18/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/blank"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Mohammad Imran"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Chef"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:18/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/blank"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Meherima Rahman"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:18/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/masud"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Md.Masud Miah"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Not Found"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:18/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/tahmid"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Tahmid Tamim"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:18/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/rahat"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Rahat Hossain"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:18/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/amjad"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Amjad Hosen"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:18/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/nadim"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Nadim Mizan"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Teacher"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/irfan"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Irfan Bhuiyan"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/zaman"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Mostofa Zaman Shomudro"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/monirul"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Monirul Islam"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Businessman"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/mamun"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Mahabub Hasan Mamun"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Employee"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/rustom"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Arman Hossen Rustom"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/sagor"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:MD.Sagor Ahommed"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/blank"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Ubaydul Haque"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Employee"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/shihab"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Shekh Hridoy Ahmed"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Employee"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/miah"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:MD.Mamun Miah"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/firoz"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Md.Firoz Talukdar"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Employee"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/bepari"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Roman Bepari"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Not found"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/alem"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Alem Al Faydee"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Intern"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/blank"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Naim"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Employee"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/rajon"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Rajon Shikdar"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/ahad"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Abdul Ahad"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Child"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/blank"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Maya Islam"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Housewife"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/nazmu"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Nazmul Hasan"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/shovon"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Saidul Islam Shovon"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/naimu"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Md.Naimur Rahman"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/junayed"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Junayed"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/blank"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Sojib"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Garment Worker"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/mobarak"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Mobarak Hossain"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Employee"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/mia"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Md.Mansur Mia"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Employee"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/emon"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Md.Emon"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Factory Employee"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/rabbi"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Akram Khan Rabbi"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student and Part-Time"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/tawhid"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Md.Tawhid Sanyamat"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:19/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/mosharraf"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Mosharraf Howlader"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Worker"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:20/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/saad"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Saad Mahmud"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:20/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                >
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/mehedi"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:Md.Mehedi"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:Student"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date:20/7/2024"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:textColor="#000000"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#E0E0E0"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+
+        > <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="30"
+        >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="10"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/home"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="10"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/criminal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Criminals"
+                android:textColor="#000000"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="10"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/community"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Protestors"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

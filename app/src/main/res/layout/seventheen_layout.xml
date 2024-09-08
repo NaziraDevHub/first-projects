@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeventheenActivity"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_above="@+id/layBottom"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name:Sakib Hasan"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:layout_marginTop="20sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Age:22 years"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"
+                />
+
+
+
+            <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/sakib"
+                    android:layout_marginLeft="70dp"
+                android:scaleType="centerCrop"
+
+                    />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reason:In RK Chowdhury college"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About:We are seeking more information about Sakib Hasan.If you have any details or insights,please help us by sharing them "
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#E0E0E0"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="30"
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/home"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/criminals"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/criminal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Criminals"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/protestors"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/community"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Protestors"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

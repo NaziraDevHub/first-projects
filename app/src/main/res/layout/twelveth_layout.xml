@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwelvethActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/layButton2"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:orientation="horizontal"
+        android:background="#E0E0E0"
+
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/hamburger"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="25dp"
+
+            />
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="40sp"
+            android:text="Quota movement"
+            android:textColor="#000000"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="8dp"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40sp"
+            android:text="July2024"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:background="@drawable/custom_july"
+
+            />
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_above="@+id/layBottom"
+        android:layout_below="@+id/layButton2"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+
+
+            
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/custom_style"
+
+
+
+                >
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/criminal1"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mehedi Hasan Kawsar Sajeeb"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textColor="#7E0303"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Crime:Attacked on female protestors physically by grabbing them by the throat at Uttara-11 on August 2,2024 "
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:textStyle="normal"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/custom_style"
+                android:layout_marginTop="10dp"
+
+
+
+                >
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/criminal2"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Redowanul Islam"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textColor="#7E0303"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Crime:Fired AK47 rifle rounds (along the chest) at the protestors from a very close range under the Rampura overbridge on July 27,2024"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:textStyle="normal"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/custom_style"
+                android:layout_marginTop="10dp"
+
+
+
+                >
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/criminal3"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abdur Razzak Jewel"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textColor="#7E0303"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Crime:Instructed BCL members to beat general students and seen saying (will shoot and kill you) at Uttara on July 33,2024"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:textStyle="normal"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/custom_style"
+                android:layout_marginTop="10dp"
+
+
+
+                >
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/criminal4"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MD Rakib Hassan Ratul"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textColor="#7E0303"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Crime:Seen with lethal weapon onsight at Uttara-11 on August 2,2024"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:textStyle="normal"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/custom_style"
+                android:layout_marginTop="10dp"
+
+
+
+                >
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/criminal5"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Junayet Al Habib (Leion Khan)"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textColor="#7E0303"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Crime:Seen with a procession consisting of BSL members with sticks at Uttara Sector 11 on August 2,2024"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:textStyle="normal"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/custom_style"
+                android:layout_marginTop="10dp"
+
+
+
+                >
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/criminal6"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sakib Arafat Mridha"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textColor="#7E0303"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Crime:Was seen with the attacking team of 15th July massacre in Dhaka University"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:textStyle="normal"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/custom_style"
+                android:layout_marginTop="10dp"
+
+
+
+                >
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/criminal7"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yunus Ali"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textColor="#7E0303"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Crime:Shot Abu Sayed on July 16,2024 at Rangpur"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:textStyle="normal"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/custom_style"
+                android:layout_marginTop="10dp"
+
+
+
+                >
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/criminal8"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Byazid"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textColor="#7E0303"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Police who made a TikTok video mocking a pedestrian"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:textStyle="normal"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/custom_style"
+                android:layout_marginTop="10dp"
+
+
+
+                >
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/criminal9"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MD Arshad Hossain Akash"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textColor="#7E0303"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Crime:He grasped a students face to prevent him from speaking.To clarify,the student attempted to speak calmly and was not armed"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:textStyle="normal"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/custom_style"
+                android:layout_marginTop="10dp"
+
+
+
+                >
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/criminal10"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abdullah Kaiyum (Kaiyum Mollah)"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textColor="#7E0303"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Crime:Attacked unarmed female protestors from behind with bamboo weapons"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:textStyle="normal"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#E0E0E0"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="30"
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/home"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/criminals"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/criminal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Criminals"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/protestors"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/community"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Protestors"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

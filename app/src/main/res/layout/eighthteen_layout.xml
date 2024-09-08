@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EighthteenActivity"
+    >
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layButton2"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:orientation="horizontal"
+        android:background="#E0E0E0"
+
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/hamburger"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="25dp"
+
+            />
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="40sp"
+            android:text="Quota movement"
+            android:textColor="#000000"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="8dp"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40sp"
+            android:text="July2024"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:background="@drawable/custom_july"
+
+            />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_above="@+id/layBottom"
+        android:layout_below="@id/layButton2"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asif Mahmud"
+                android:gravity="center"
+                android:textColor="#827717"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/asifmahmood"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Occupation:Social Activist"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:background="@drawable/custom_black"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Early life and education:Asif Mahmud was born on 14 July 1998 in Akubpur thana of Muradnagar, Cumilla, Bangladesh to Md. Billal Hossain and Roksana Begum. Mahmud studied at Nakhalpara Hossain Ali High School in Dhaka and completed his secondary education there. Afterwards, he studied at Adamjee Cantonment College, where he served as the Platoon Sergeant of the college's BNCC Club. After completing his higher secondary education, he is currently studying at the University of Dhaka. He is a student of the 2017–18 academic session in the Department of Linguistics at the University of Dhaka."
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:background="@drawable/custom_black"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Activism:Mahmud was one of the coordinators of a student movement; Anti-discrimination Students Movement, opposing quotas in government jobs, which evolved into a campaign to remove Hasina from power.[8] He along with Nahid Islam and others gained national recognition in mid-July 2024 when he and several other Dhaka University students were detained by police as the protests became violent.In the aftermath, on August 5, Prime Minister of Bangladesh Sheikh Hasina resigned and fled the country. Nahid stated that their goals weren't fully met, and following Hasina's resignation, the group aimed to abolish fascist systems forever.He and his organisation called Nobel Laureate Muhammad Yunus to lead an interim government.
+
+"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:background="@drawable/custom_black"
+                android:gravity="center"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:id="@+id/layBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#E0E0E0"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="30"
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/home"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/criminals"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/criminal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Criminals"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/protestors"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/community"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Protestors"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
